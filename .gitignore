@@ -5,12 +5,13 @@
 node_modules
 
 # Ignore all files under /uploads and its subdirectories
+# Ignore all files under /uploads and its subdirectories
 /uploads/*
-!/uploads/**/
-
-# Ignore all files under any /uploads/ directory
 /uploads/**/*
-!/uploads/**/**/
+
+# Explicitly include all directories under /uploads
+!/uploads/
+!/uploads/**/
 
 
 # # image upload folder
